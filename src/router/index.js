@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/postcss-nesting',
       name: 'postcss-nesting',
       component: () => import('../views/postcss-nesting.vue')
+    },
+    {
+      path: '/animate-css',
+      name: 'animate-css',
+      component: () => import('../views/animate-css.vue')
     }
   ]
 })
